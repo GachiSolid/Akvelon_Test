@@ -56,3 +56,5 @@ D:\Документы\Bars\Akvelon_Test\Akvelon_Test\bin\Debug\net5.0\Microsoft.
 D:\Документы\Bars\Akvelon_Test\Akvelon_Test\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
 D:\Документы\Bars\Akvelon_Test\Akvelon_Test\bin\Debug\net5.0\Swashbuckle.AspNetCore.Newtonsoft.dll
 D:\Документы\Bars\Akvelon_Test\Akvelon_Test\obj\Debug\net5.0\Razor\Views\Home\Edit.cshtml.g.cs
+D:\Документы\Bars\Akvelon_Test\Akvelon_Test\bin\Debug\net5.0\Akvelon_Test.xml
+D:\Документы\Bars\Akvelon_Test\Akvelon_Test\obj\Debug\net5.0\Akvelon_Test.xml
