@@ -11,7 +11,7 @@ namespace Akvelon_Test.API
 {
     public class ProjectWorker : IWorkerWithProject
     {
-        ApplicationContext db;
+        readonly ApplicationContext db;
         public ProjectWorker(ApplicationContext context)
         {
             db = context;

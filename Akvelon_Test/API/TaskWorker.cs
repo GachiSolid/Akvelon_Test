@@ -11,7 +11,7 @@ namespace Akvelon_Test.API
 {
     public class TaskWorker : IWorkerWithTask
     {
-        ApplicationContext db;
+        readonly ApplicationContext db;
         public TaskWorker(ApplicationContext context)
         {
             db = context;
