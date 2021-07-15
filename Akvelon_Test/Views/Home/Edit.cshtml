@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Edit Task";
+}
+        <div class="modal-body">
+            <form name="taskPutForm">
+                <div class="form-group col-md-5">
+                    <input placeholder="TaskName" class="form-control" name="name" required oninvalid="this.setCustomValidity('Please fill out this field.')" oninput="setCustomValidity('')" />
+                </div>
+                <div class="form-group col-md-5">
+                    <select id="status" size="1" name="status" required>
+                        <option value="0">To Do</option>
+                        <option value="1">In Progress</option>
+                        <option value="2">Done</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-5">
+                    <input placeholder="Description" class="form-control" name="description" />
+                </div>
+                <div class="form-group col-md-5">
+                    <input type="number" placeholder="Priority" class="form-control" name="priority" />
+                </div>
+                <div class="panel-body">
+                    <button type="submit" id="submit" class="btn btn-primary">Update task</button>
+                </div>
+            </form>
+        </div>
+        <script src="~/js/edit.js"></script>
